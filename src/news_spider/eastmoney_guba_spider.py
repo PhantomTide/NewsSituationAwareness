@@ -17,8 +17,6 @@ def main():
     driver = webdriver.chrome("")
     driver.get("http://guba.eastmoney.com/")
     # 登录账号
-    
-
 
 
 
