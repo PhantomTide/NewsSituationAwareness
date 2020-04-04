@@ -14,13 +14,9 @@ def main():
     :return:
     """
     print()
-    driver = webdriver.chrome("")
+    driver = webdriver.chrome("D:\soft\chromedriver\chromedriver_win32\chromedriver.exe")
     driver.get("http://guba.eastmoney.com/")
     # 登录账号
-
-
-
-
 
 if __name__ == '__main__':
     main()
